@@ -44,6 +44,8 @@
 - (BOOL)isLoginValidWithUserName:(NSString *) userName withPass:(NSString *) password {
     if (userName.length > 0 && password.length > 0) {
         // Proceed to login, go to interactor to check with database (entity)
+        
+        [[Wireframe sharedManager] goToHomeScreen];
         return YES;
     } else {
         // Show error --> wireframe

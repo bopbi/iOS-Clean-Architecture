@@ -14,5 +14,5 @@
 + (id)sharedManager;
 
 -(void)showErrorWithAlertController:(UIAlertController *)alertController;
-
+- (void) goToHomeScreen;
 @end

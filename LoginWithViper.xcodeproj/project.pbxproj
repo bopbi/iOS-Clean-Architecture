@@ -19,6 +19,7 @@
 		963792CF1C759EE00057EF1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963792CD1C759EE00057EF1B /* LaunchScreen.storyboard */; };
 		963792DA1C759EE10057EF1B /* LoginWithViperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963792D91C759EE10057EF1B /* LoginWithViperTests.m */; };
 		963792E51C759EE10057EF1B /* LoginWithViperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963792E41C759EE10057EF1B /* LoginWithViperUITests.m */; };
+		BEA81D381C87F13D0064905A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA81D371C87F13D0064905A /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		963792E01C759EE10057EF1B /* LoginWithViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginWithViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963792E41C759EE10057EF1B /* LoginWithViperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginWithViperUITests.m; sourceTree = "<group>"; };
 		963792E61C759EE10057EF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA81D361C87F13D0064905A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BEA81D371C87F13D0064905A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				963792CD1C759EE00057EF1B /* LaunchScreen.storyboard */,
 				963792D01C759EE00057EF1B /* Info.plist */,
 				963792BF1C759EE00057EF1B /* Supporting Files */,
+				BEA81D361C87F13D0064905A /* HomeViewController.h */,
+				BEA81D371C87F13D0064905A /* HomeViewController.m */,
 			);
 			path = LoginWithViper;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				96378B5D1C76CF6500BD50B1 /* Wireframe.m in Sources */,
 				96378B661C76F21C00BD50B1 /* Presenter.m in Sources */,
 				963792C11C759EE00057EF1B /* main.m in Sources */,
+				BEA81D381C87F13D0064905A /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

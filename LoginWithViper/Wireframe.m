@@ -7,6 +7,7 @@
 //
 
 #import "Wireframe.h"
+#import "HomeViewController.h"
 
 @implementation Wireframe
 
@@ -37,6 +38,13 @@
 - (void)showErrorWithAlertController:(UIAlertController *)alertController {
     AppDelegate *appdelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     [appdelegate.window.rootViewController presentViewController:alertController animated:YES completion:nil];
+}
+
+- (void) goToHomeScreen {
+    AppDelegate *appdelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    HomeViewController *homeVC = [storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+    [((UINavigationController * ) appdelegate.window.rootViewController) pushViewController:homeVC animated:YES];
 }
 
 @end
